@@ -1,0 +1,95 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Composer
+composer.phar
+
+# NPM
+npm-debug.log
+yarn-error.log
+
+# PHP
+*.log
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+
+# Build files
+/build/
+/dist/
+
+# Laravel Mix
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Testing
+/.phpunit.cache
+/phpunit.xml
+/coverage/
+
+# Deployment
+.deployments
+
+# Local development
+/public/uploads/
+/storage/app/public/xray_scans/
+
+# Database
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+
+# IDE specific
+/.vscode/
+/.idea/
+
+# Windows specific
+*.bat
+*.cmd
+install_*.bat
+auto_install_*.bat
+start_demo.bat
+
+# Setup files
+/vendor/autoload.php.bak
+IDE_Stubs.php
+
+# Demo files (optional - remove if you want to include demo)
+demo.html
